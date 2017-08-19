@@ -12,6 +12,10 @@
 #import "HYContactsNavigationController.h"
 #import "HYDiscoveryNavigationController.h"
 #import "HYMeNavigationController.h"
+#import "HYChatListController.h"
+#import "HYContactsListController.h"
+#import "HYDiscoveryListController.h"
+#import "HYMeListController.h"
 
 @interface AppDelegate ()
 
@@ -26,6 +30,30 @@
     [self.window makeKeyAndVisible];
     
     HYMainTabController * mainTabController = [[HYMainTabController alloc] init];
+    
+    self.window.rootViewController = mainTabController;
+    
+    //聊天列表导航控制器的初始化
+    HYWechatNavigationController * wechatNavigationController = [[HYWechatNavigationController alloc] initWithRootViewController:[[HYChatListController alloc] init]];
+    wechatNavigationController.title = @"微信";
+    
+    //联系人列表的导航控制器初始化
+    HYContactsNavigationController * contactsNavigationController = [[HYContactsNavigationController alloc] initWithRootViewController:[[HYContactsListController alloc] init]];
+    contactsNavigationController.title = @"通讯录";
+    
+    //发现列表的导航控制器初始化
+    HYDiscoveryNavigationController * discoveryNavigationController = [[HYDiscoveryNavigationController alloc] initWithRootViewController:[[HYDiscoveryListController alloc] init]];
+    discoveryNavigationController.title = @"发现";
+    
+    //我的资料列表导航控制器初始化
+    HYMeNavigationController * meNavigationController = [[HYMeNavigationController alloc] initWithRootViewController:[[HYMeListController alloc] init]];
+    meNavigationController.title = @"我";
+    
+    //将四个导航控制器合并到一个数组
+    NSArray * navigationControllers = [NSArray arrayWithObjects: wechatNavigationController, contactsNavigationController, discoveryNavigationController, meNavigationController, nil];
+    
+    //将四个导航控制器添加到主分栏控制器
+    mainTabController.viewControllers = navigationControllers;
     
     return YES;
 }

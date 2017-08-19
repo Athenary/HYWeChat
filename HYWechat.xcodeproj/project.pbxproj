@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		61B5CE43DF4BBB84D09FD72C /* libPods-HYWechat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FC059F391484562592E8EFD0 /* libPods-HYWechat.a */; };
 		EF66CEA51F47EB4B00D24DF7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF66CEA41F47EB4B00D24DF7 /* main.m */; };
 		EF66CEA81F47EB4B00D24DF7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF66CEA71F47EB4B00D24DF7 /* AppDelegate.m */; };
 		EF66CEAE1F47EB4B00D24DF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF66CEAC1F47EB4B00D24DF7 /* Main.storyboard */; };
@@ -44,6 +45,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B400868304A744EB6F626AD /* Pods-HYWechat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HYWechat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HYWechat/Pods-HYWechat.debug.xcconfig"; sourceTree = "<group>"; };
+		AAA91D21E2E975A5A67943F4 /* Pods-HYWechat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HYWechat.release.xcconfig"; path = "Pods/Target Support Files/Pods-HYWechat/Pods-HYWechat.release.xcconfig"; sourceTree = "<group>"; };
 		EF66CEA01F47EB4B00D24DF7 /* HYWechat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HYWechat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF66CEA41F47EB4B00D24DF7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EF66CEA61F47EB4B00D24DF7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -77,6 +80,7 @@
 		EF66CEF41F47F43000D24DF7 /* HYDiscoveryListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYDiscoveryListController.m; sourceTree = "<group>"; };
 		EF66CEF61F47F44900D24DF7 /* HYMeListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYMeListController.h; sourceTree = "<group>"; };
 		EF66CEF71F47F44900D24DF7 /* HYMeListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYMeListController.m; sourceTree = "<group>"; };
+		FC059F391484562592E8EFD0 /* libPods-HYWechat.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HYWechat.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61B5CE43DF4BBB84D09FD72C /* libPods-HYWechat.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,6 +109,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3C1A6C27FCE415CD3C3595B0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0B400868304A744EB6F626AD /* Pods-HYWechat.debug.xcconfig */,
+				AAA91D21E2E975A5A67943F4 /* Pods-HYWechat.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4638C7DF5110B7D96696C0F8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC059F391484562592E8EFD0 /* libPods-HYWechat.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		EF66CE971F47EB4B00D24DF7 = {
 			isa = PBXGroup;
 			children = (
@@ -111,6 +133,8 @@
 				EF66CEBF1F47EB4C00D24DF7 /* HYWechatTests */,
 				EF66CECA1F47EB4C00D24DF7 /* HYWechatUITests */,
 				EF66CEA11F47EB4B00D24DF7 /* Products */,
+				3C1A6C27FCE415CD3C3595B0 /* Pods */,
+				4638C7DF5110B7D96696C0F8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -219,8 +243,16 @@
 			children = (
 				EF66CEE91F47F1F100D24DF7 /* HYMainTabController.h */,
 				EF66CEEA1F47F1F100D24DF7 /* HYMainTabController.m */,
+				EF726E691F48014900649759 /* Images */,
 			);
 			name = HYMainTabController;
+			sourceTree = "<group>";
+		};
+		EF726E691F48014900649759 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,9 +262,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EF66CED01F47EB4C00D24DF7 /* Build configuration list for PBXNativeTarget "HYWechat" */;
 			buildPhases = (
+				9F9CBD1850224E91AB2FDF95 /* [CP] Check Pods Manifest.lock */,
 				EF66CE9C1F47EB4B00D24DF7 /* Sources */,
 				EF66CE9D1F47EB4B00D24DF7 /* Frameworks */,
 				EF66CE9E1F47EB4B00D24DF7 /* Resources */,
+				FD125F7837F882F578B4F6A0 /* [CP] Embed Pods Frameworks */,
+				6F2D4540BC60AF01D8141D86 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -353,6 +388,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6F2D4540BC60AF01D8141D86 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HYWechat/Pods-HYWechat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F9CBD1850224E91AB2FDF95 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FD125F7837F882F578B4F6A0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HYWechat/Pods-HYWechat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EF66CE9C1F47EB4B00D24DF7 /* Sources */ = {
@@ -517,6 +600,7 @@
 		};
 		EF66CED11F47EB4C00D24DF7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B400868304A744EB6F626AD /* Pods-HYWechat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 6FLC9M7L6R;
@@ -529,6 +613,7 @@
 		};
 		EF66CED21F47EB4C00D24DF7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAA91D21E2E975A5A67943F4 /* Pods-HYWechat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 6FLC9M7L6R;
@@ -608,6 +693,7 @@
 				EF66CED21F47EB4C00D24DF7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF66CED31F47EB4C00D24DF7 /* Build configuration list for PBXNativeTarget "HYWechatTests" */ = {
 			isa = XCConfigurationList;
@@ -616,6 +702,7 @@
 				EF66CED51F47EB4C00D24DF7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF66CED61F47EB4C00D24DF7 /* Build configuration list for PBXNativeTarget "HYWechatUITests" */ = {
 			isa = XCConfigurationList;
@@ -624,6 +711,7 @@
 				EF66CED81F47EB4C00D24DF7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
