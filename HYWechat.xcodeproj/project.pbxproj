@@ -1,0 +1,644 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF66CEA51F47EB4B00D24DF7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF66CEA41F47EB4B00D24DF7 /* main.m */; };
+		EF66CEA81F47EB4B00D24DF7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF66CEA71F47EB4B00D24DF7 /* AppDelegate.m */; };
+		EF66CEAE1F47EB4B00D24DF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF66CEAC1F47EB4B00D24DF7 /* Main.storyboard */; };
+		EF66CEB11F47EB4B00D24DF7 /* HYWechat.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EF66CEAF1F47EB4B00D24DF7 /* HYWechat.xcdatamodeld */; };
+		EF66CEB31F47EB4B00D24DF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF66CEB21F47EB4B00D24DF7 /* Assets.xcassets */; };
+		EF66CEB61F47EB4B00D24DF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF66CEB41F47EB4B00D24DF7 /* LaunchScreen.storyboard */; };
+		EF66CEC11F47EB4C00D24DF7 /* HYWechatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF66CEC01F47EB4C00D24DF7 /* HYWechatTests.m */; };
+		EF66CECC1F47EB4C00D24DF7 /* HYWechatUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF66CECB1F47EB4C00D24DF7 /* HYWechatUITests.m */; };
+		EF66CEDB1F47EDD900D24DF7 /* HYWechatNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF66CEDA1F47EDD900D24DF7 /* HYWechatNavigationController.m */; };
+		EF66CEDE1F47EE1B00D24DF7 /* HYContactsNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF66CEDD1F47EE1B00D24DF7 /* HYContactsNavigationController.m */; };
+		EF66CEE11F47EE5000D24DF7 /* HYDiscoveryNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF66CEE01F47EE5000D24DF7 /* HYDiscoveryNavigationController.m */; };
+		EF66CEE41F47EE7200D24DF7 /* HYMeNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF66CEE31F47EE7200D24DF7 /* HYMeNavigationController.m */; };
+		EF66CEEB1F47F1F100D24DF7 /* HYMainTabController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF66CEEA1F47F1F100D24DF7 /* HYMainTabController.m */; };
+		EF66CEEF1F47F3DA00D24DF7 /* HYChatListController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF66CEEE1F47F3DA00D24DF7 /* HYChatListController.m */; };
+		EF66CEF21F47F40600D24DF7 /* HYContactsListController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF66CEF11F47F40600D24DF7 /* HYContactsListController.m */; };
+		EF66CEF51F47F43000D24DF7 /* HYDiscoveryListController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF66CEF41F47F43000D24DF7 /* HYDiscoveryListController.m */; };
+		EF66CEF81F47F44900D24DF7 /* HYMeListController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF66CEF71F47F44900D24DF7 /* HYMeListController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF66CEBD1F47EB4B00D24DF7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF66CE981F47EB4B00D24DF7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF66CE9F1F47EB4B00D24DF7;
+			remoteInfo = HYWechat;
+		};
+		EF66CEC81F47EB4C00D24DF7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF66CE981F47EB4B00D24DF7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF66CE9F1F47EB4B00D24DF7;
+			remoteInfo = HYWechat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF66CEA01F47EB4B00D24DF7 /* HYWechat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HYWechat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF66CEA41F47EB4B00D24DF7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF66CEA61F47EB4B00D24DF7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EF66CEA71F47EB4B00D24DF7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EF66CEAD1F47EB4B00D24DF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF66CEB01F47EB4B00D24DF7 /* HYWechat.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HYWechat.xcdatamodel; sourceTree = "<group>"; };
+		EF66CEB21F47EB4B00D24DF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF66CEB51F47EB4B00D24DF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF66CEB71F47EB4B00D24DF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF66CEBC1F47EB4B00D24DF7 /* HYWechatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HYWechatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF66CEC01F47EB4C00D24DF7 /* HYWechatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYWechatTests.m; sourceTree = "<group>"; };
+		EF66CEC21F47EB4C00D24DF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF66CEC71F47EB4C00D24DF7 /* HYWechatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HYWechatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF66CECB1F47EB4C00D24DF7 /* HYWechatUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYWechatUITests.m; sourceTree = "<group>"; };
+		EF66CECD1F47EB4C00D24DF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF66CED91F47EDD900D24DF7 /* HYWechatNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYWechatNavigationController.h; sourceTree = "<group>"; };
+		EF66CEDA1F47EDD900D24DF7 /* HYWechatNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYWechatNavigationController.m; sourceTree = "<group>"; };
+		EF66CEDC1F47EE1B00D24DF7 /* HYContactsNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYContactsNavigationController.h; sourceTree = "<group>"; };
+		EF66CEDD1F47EE1B00D24DF7 /* HYContactsNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYContactsNavigationController.m; sourceTree = "<group>"; };
+		EF66CEDF1F47EE5000D24DF7 /* HYDiscoveryNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYDiscoveryNavigationController.h; sourceTree = "<group>"; };
+		EF66CEE01F47EE5000D24DF7 /* HYDiscoveryNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYDiscoveryNavigationController.m; sourceTree = "<group>"; };
+		EF66CEE21F47EE7200D24DF7 /* HYMeNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYMeNavigationController.h; sourceTree = "<group>"; };
+		EF66CEE31F47EE7200D24DF7 /* HYMeNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYMeNavigationController.m; sourceTree = "<group>"; };
+		EF66CEE91F47F1F100D24DF7 /* HYMainTabController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYMainTabController.h; sourceTree = "<group>"; };
+		EF66CEEA1F47F1F100D24DF7 /* HYMainTabController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYMainTabController.m; sourceTree = "<group>"; };
+		EF66CEED1F47F3DA00D24DF7 /* HYChatListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYChatListController.h; sourceTree = "<group>"; };
+		EF66CEEE1F47F3DA00D24DF7 /* HYChatListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYChatListController.m; sourceTree = "<group>"; };
+		EF66CEF01F47F40600D24DF7 /* HYContactsListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYContactsListController.h; sourceTree = "<group>"; };
+		EF66CEF11F47F40600D24DF7 /* HYContactsListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYContactsListController.m; sourceTree = "<group>"; };
+		EF66CEF31F47F43000D24DF7 /* HYDiscoveryListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYDiscoveryListController.h; sourceTree = "<group>"; };
+		EF66CEF41F47F43000D24DF7 /* HYDiscoveryListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYDiscoveryListController.m; sourceTree = "<group>"; };
+		EF66CEF61F47F44900D24DF7 /* HYMeListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYMeListController.h; sourceTree = "<group>"; };
+		EF66CEF71F47F44900D24DF7 /* HYMeListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYMeListController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF66CE9D1F47EB4B00D24DF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF66CEB91F47EB4B00D24DF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF66CEC41F47EB4C00D24DF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF66CE971F47EB4B00D24DF7 = {
+			isa = PBXGroup;
+			children = (
+				EF66CEA21F47EB4B00D24DF7 /* HYWechat */,
+				EF66CEBF1F47EB4C00D24DF7 /* HYWechatTests */,
+				EF66CECA1F47EB4C00D24DF7 /* HYWechatUITests */,
+				EF66CEA11F47EB4B00D24DF7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF66CEA11F47EB4B00D24DF7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF66CEA01F47EB4B00D24DF7 /* HYWechat.app */,
+				EF66CEBC1F47EB4B00D24DF7 /* HYWechatTests.xctest */,
+				EF66CEC71F47EB4C00D24DF7 /* HYWechatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF66CEA21F47EB4B00D24DF7 /* HYWechat */ = {
+			isa = PBXGroup;
+			children = (
+				EF66CEA61F47EB4B00D24DF7 /* AppDelegate.h */,
+				EF66CEA71F47EB4B00D24DF7 /* AppDelegate.m */,
+				EF66CEEC1F47F1FA00D24DF7 /* HYMainTabController */,
+				EF66CEE51F47EE7F00D24DF7 /* HYWechatNavigaitonController */,
+				EF66CEE61F47EEA100D24DF7 /* HYContactsNavigationController */,
+				EF66CEE71F47EECD00D24DF7 /* HYDiscoveryNavigationController */,
+				EF66CEE81F47F1AD00D24DF7 /* HYMeNavigationController */,
+				EF66CEA31F47EB4B00D24DF7 /* Supporting Files */,
+			);
+			path = HYWechat;
+			sourceTree = "<group>";
+		};
+		EF66CEA31F47EB4B00D24DF7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF66CEAC1F47EB4B00D24DF7 /* Main.storyboard */,
+				EF66CEB71F47EB4B00D24DF7 /* Info.plist */,
+				EF66CEAF1F47EB4B00D24DF7 /* HYWechat.xcdatamodeld */,
+				EF66CEA41F47EB4B00D24DF7 /* main.m */,
+				EF66CEB41F47EB4B00D24DF7 /* LaunchScreen.storyboard */,
+				EF66CEB21F47EB4B00D24DF7 /* Assets.xcassets */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF66CEBF1F47EB4C00D24DF7 /* HYWechatTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF66CEC01F47EB4C00D24DF7 /* HYWechatTests.m */,
+				EF66CEC21F47EB4C00D24DF7 /* Info.plist */,
+			);
+			path = HYWechatTests;
+			sourceTree = "<group>";
+		};
+		EF66CECA1F47EB4C00D24DF7 /* HYWechatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF66CECB1F47EB4C00D24DF7 /* HYWechatUITests.m */,
+				EF66CECD1F47EB4C00D24DF7 /* Info.plist */,
+			);
+			path = HYWechatUITests;
+			sourceTree = "<group>";
+		};
+		EF66CEE51F47EE7F00D24DF7 /* HYWechatNavigaitonController */ = {
+			isa = PBXGroup;
+			children = (
+				EF66CED91F47EDD900D24DF7 /* HYWechatNavigationController.h */,
+				EF66CEDA1F47EDD900D24DF7 /* HYWechatNavigationController.m */,
+				EF66CEED1F47F3DA00D24DF7 /* HYChatListController.h */,
+				EF66CEEE1F47F3DA00D24DF7 /* HYChatListController.m */,
+			);
+			name = HYWechatNavigaitonController;
+			sourceTree = "<group>";
+		};
+		EF66CEE61F47EEA100D24DF7 /* HYContactsNavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				EF66CEDC1F47EE1B00D24DF7 /* HYContactsNavigationController.h */,
+				EF66CEDD1F47EE1B00D24DF7 /* HYContactsNavigationController.m */,
+				EF66CEF01F47F40600D24DF7 /* HYContactsListController.h */,
+				EF66CEF11F47F40600D24DF7 /* HYContactsListController.m */,
+			);
+			name = HYContactsNavigationController;
+			sourceTree = "<group>";
+		};
+		EF66CEE71F47EECD00D24DF7 /* HYDiscoveryNavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				EF66CEDF1F47EE5000D24DF7 /* HYDiscoveryNavigationController.h */,
+				EF66CEE01F47EE5000D24DF7 /* HYDiscoveryNavigationController.m */,
+				EF66CEF31F47F43000D24DF7 /* HYDiscoveryListController.h */,
+				EF66CEF41F47F43000D24DF7 /* HYDiscoveryListController.m */,
+			);
+			name = HYDiscoveryNavigationController;
+			sourceTree = "<group>";
+		};
+		EF66CEE81F47F1AD00D24DF7 /* HYMeNavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				EF66CEE21F47EE7200D24DF7 /* HYMeNavigationController.h */,
+				EF66CEE31F47EE7200D24DF7 /* HYMeNavigationController.m */,
+				EF66CEF61F47F44900D24DF7 /* HYMeListController.h */,
+				EF66CEF71F47F44900D24DF7 /* HYMeListController.m */,
+			);
+			name = HYMeNavigationController;
+			sourceTree = "<group>";
+		};
+		EF66CEEC1F47F1FA00D24DF7 /* HYMainTabController */ = {
+			isa = PBXGroup;
+			children = (
+				EF66CEE91F47F1F100D24DF7 /* HYMainTabController.h */,
+				EF66CEEA1F47F1F100D24DF7 /* HYMainTabController.m */,
+			);
+			name = HYMainTabController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF66CE9F1F47EB4B00D24DF7 /* HYWechat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF66CED01F47EB4C00D24DF7 /* Build configuration list for PBXNativeTarget "HYWechat" */;
+			buildPhases = (
+				EF66CE9C1F47EB4B00D24DF7 /* Sources */,
+				EF66CE9D1F47EB4B00D24DF7 /* Frameworks */,
+				EF66CE9E1F47EB4B00D24DF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HYWechat;
+			productName = HYWechat;
+			productReference = EF66CEA01F47EB4B00D24DF7 /* HYWechat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF66CEBB1F47EB4B00D24DF7 /* HYWechatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF66CED31F47EB4C00D24DF7 /* Build configuration list for PBXNativeTarget "HYWechatTests" */;
+			buildPhases = (
+				EF66CEB81F47EB4B00D24DF7 /* Sources */,
+				EF66CEB91F47EB4B00D24DF7 /* Frameworks */,
+				EF66CEBA1F47EB4B00D24DF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF66CEBE1F47EB4B00D24DF7 /* PBXTargetDependency */,
+			);
+			name = HYWechatTests;
+			productName = HYWechatTests;
+			productReference = EF66CEBC1F47EB4B00D24DF7 /* HYWechatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF66CEC61F47EB4C00D24DF7 /* HYWechatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF66CED61F47EB4C00D24DF7 /* Build configuration list for PBXNativeTarget "HYWechatUITests" */;
+			buildPhases = (
+				EF66CEC31F47EB4C00D24DF7 /* Sources */,
+				EF66CEC41F47EB4C00D24DF7 /* Frameworks */,
+				EF66CEC51F47EB4C00D24DF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF66CEC91F47EB4C00D24DF7 /* PBXTargetDependency */,
+			);
+			name = HYWechatUITests;
+			productName = HYWechatUITests;
+			productReference = EF66CEC71F47EB4C00D24DF7 /* HYWechatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF66CE981F47EB4B00D24DF7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = olivemouse;
+				TargetAttributes = {
+					EF66CE9F1F47EB4B00D24DF7 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 6FLC9M7L6R;
+						ProvisioningStyle = Automatic;
+					};
+					EF66CEBB1F47EB4B00D24DF7 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 6FLC9M7L6R;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EF66CE9F1F47EB4B00D24DF7;
+					};
+					EF66CEC61F47EB4C00D24DF7 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 6FLC9M7L6R;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EF66CE9F1F47EB4B00D24DF7;
+					};
+				};
+			};
+			buildConfigurationList = EF66CE9B1F47EB4B00D24DF7 /* Build configuration list for PBXProject "HYWechat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF66CE971F47EB4B00D24DF7;
+			productRefGroup = EF66CEA11F47EB4B00D24DF7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF66CE9F1F47EB4B00D24DF7 /* HYWechat */,
+				EF66CEBB1F47EB4B00D24DF7 /* HYWechatTests */,
+				EF66CEC61F47EB4C00D24DF7 /* HYWechatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF66CE9E1F47EB4B00D24DF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF66CEB61F47EB4B00D24DF7 /* LaunchScreen.storyboard in Resources */,
+				EF66CEB31F47EB4B00D24DF7 /* Assets.xcassets in Resources */,
+				EF66CEAE1F47EB4B00D24DF7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF66CEBA1F47EB4B00D24DF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF66CEC51F47EB4C00D24DF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF66CE9C1F47EB4B00D24DF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF66CEA81F47EB4B00D24DF7 /* AppDelegate.m in Sources */,
+				EF66CEEF1F47F3DA00D24DF7 /* HYChatListController.m in Sources */,
+				EF66CEEB1F47F1F100D24DF7 /* HYMainTabController.m in Sources */,
+				EF66CEF51F47F43000D24DF7 /* HYDiscoveryListController.m in Sources */,
+				EF66CEB11F47EB4B00D24DF7 /* HYWechat.xcdatamodeld in Sources */,
+				EF66CEE41F47EE7200D24DF7 /* HYMeNavigationController.m in Sources */,
+				EF66CEF21F47F40600D24DF7 /* HYContactsListController.m in Sources */,
+				EF66CEDB1F47EDD900D24DF7 /* HYWechatNavigationController.m in Sources */,
+				EF66CEA51F47EB4B00D24DF7 /* main.m in Sources */,
+				EF66CEDE1F47EE1B00D24DF7 /* HYContactsNavigationController.m in Sources */,
+				EF66CEF81F47F44900D24DF7 /* HYMeListController.m in Sources */,
+				EF66CEE11F47EE5000D24DF7 /* HYDiscoveryNavigationController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF66CEB81F47EB4B00D24DF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF66CEC11F47EB4C00D24DF7 /* HYWechatTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF66CEC31F47EB4C00D24DF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF66CECC1F47EB4C00D24DF7 /* HYWechatUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF66CEBE1F47EB4B00D24DF7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF66CE9F1F47EB4B00D24DF7 /* HYWechat */;
+			targetProxy = EF66CEBD1F47EB4B00D24DF7 /* PBXContainerItemProxy */;
+		};
+		EF66CEC91F47EB4C00D24DF7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF66CE9F1F47EB4B00D24DF7 /* HYWechat */;
+			targetProxy = EF66CEC81F47EB4C00D24DF7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF66CEAC1F47EB4B00D24DF7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF66CEAD1F47EB4B00D24DF7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF66CEB41F47EB4B00D24DF7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF66CEB51F47EB4B00D24DF7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF66CECE1F47EB4C00D24DF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EF66CECF1F47EB4C00D24DF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF66CED11F47EB4C00D24DF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6FLC9M7L6R;
+				INFOPLIST_FILE = HYWechat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = olivemouse.HYWechat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EF66CED21F47EB4C00D24DF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6FLC9M7L6R;
+				INFOPLIST_FILE = HYWechat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = olivemouse.HYWechat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EF66CED41F47EB4C00D24DF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6FLC9M7L6R;
+				INFOPLIST_FILE = HYWechatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = olivemouse.HYWechatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HYWechat.app/HYWechat";
+			};
+			name = Debug;
+		};
+		EF66CED51F47EB4C00D24DF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6FLC9M7L6R;
+				INFOPLIST_FILE = HYWechatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = olivemouse.HYWechatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HYWechat.app/HYWechat";
+			};
+			name = Release;
+		};
+		EF66CED71F47EB4C00D24DF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 6FLC9M7L6R;
+				INFOPLIST_FILE = HYWechatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = olivemouse.HYWechatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HYWechat;
+			};
+			name = Debug;
+		};
+		EF66CED81F47EB4C00D24DF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 6FLC9M7L6R;
+				INFOPLIST_FILE = HYWechatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = olivemouse.HYWechatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HYWechat;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF66CE9B1F47EB4B00D24DF7 /* Build configuration list for PBXProject "HYWechat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF66CECE1F47EB4C00D24DF7 /* Debug */,
+				EF66CECF1F47EB4C00D24DF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF66CED01F47EB4C00D24DF7 /* Build configuration list for PBXNativeTarget "HYWechat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF66CED11F47EB4C00D24DF7 /* Debug */,
+				EF66CED21F47EB4C00D24DF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF66CED31F47EB4C00D24DF7 /* Build configuration list for PBXNativeTarget "HYWechatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF66CED41F47EB4C00D24DF7 /* Debug */,
+				EF66CED51F47EB4C00D24DF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF66CED61F47EB4C00D24DF7 /* Build configuration list for PBXNativeTarget "HYWechatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF66CED71F47EB4C00D24DF7 /* Debug */,
+				EF66CED81F47EB4C00D24DF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EF66CEAF1F47EB4B00D24DF7 /* HYWechat.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EF66CEB01F47EB4B00D24DF7 /* HYWechat.xcdatamodel */,
+			);
+			currentVersion = EF66CEB01F47EB4B00D24DF7 /* HYWechat.xcdatamodel */;
+			path = HYWechat.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EF66CE981F47EB4B00D24DF7 /* Project object */;
+}
